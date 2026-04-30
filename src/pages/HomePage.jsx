@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { ArrowRight, TrendingUp, Clock, ShoppingBag, Zap, Star, ChevronLeft, ChevronRight } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
-import { products, categories, deals } from '../data/product';
+import { products, categories, deals } from '../data/Product';
 
 function HeroSection() {
   const navigate = useNavigate();
