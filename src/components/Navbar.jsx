@@ -3,7 +3,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { ShoppingCart, Search, User, Menu, X, Heart, ChevronDown } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
-import { products } from '../data/product';
+import { products } from '../data/Product';
 
 export default function Navbar() {
   const { totalItems } = useCart();
